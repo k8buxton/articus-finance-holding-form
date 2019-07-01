@@ -1,0 +1,2 @@
+class ContactFormSubmissionsControllerController < ApplicationController
+end
