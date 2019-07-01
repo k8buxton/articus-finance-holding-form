@@ -10,7 +10,7 @@
             <%= f.input :first_name, label: false, placeholder: 'First Name' %>
           </div>
           <div class="col">
-            <%= f.input :last_name, label: false, placeholder: 'First Name' %>
+            <%= f.input :last_name, label: false, placeholder: 'Last Name' %>
           </div>
         </div>
         <div class="form-row">
@@ -22,7 +22,7 @@
           </div>
         </div>
         <%= f.input :message, label: false, placeholder: 'Your Message' %>
-        <%= f.submit 'SUBMIT' %>
+        <%= f.submit 'SUBMIT', class: 'transparent-btn' %>
       <% end %>
     </div>
   </div>
