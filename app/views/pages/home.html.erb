@@ -5,6 +5,7 @@
     <p>Articus Finance is a London based mortgage broker that specialises in securing the best mortgage deals for wealthy individuals. From residential property to buy to let portfolios, our mortgage brokers are highly experienced in negotiating the best mortgages and mortgage rates, regardless of the complexity of your situation.</p>
     <div class="form-container">
       <%= simple_form_for @contact_form_submission do |f| %>
+        <%= render 'shared/error_messages', object: f.object %>
         <div class="form-row">
           <div class="col">
             <%= f.input :first_name, label: false, placeholder: 'First Name' %>
