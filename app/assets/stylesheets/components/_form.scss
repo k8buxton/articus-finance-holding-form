@@ -1,0 +1,14 @@
+.form-control {
+  background: none;
+  color: rgba(208, 209, 204,0.4);
+  border: none;
+  border-bottom: 1px solid rgba(208, 209, 204,0.4);
+  font-size: 12px;
+  border-radius: 0px;
+  &:focus {
+    background: none;
+    box-shadow: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+  }
+}
