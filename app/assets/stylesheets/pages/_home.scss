@@ -11,8 +11,7 @@ body {
   height: 100vh;
 }
 img {
-  width: 200px;
-  margin-top: 24px;
+  width: 240px;
 }
 .floating-container {
   background-color: #15393B;
@@ -20,13 +19,15 @@ img {
   letter-spacing: 0.4px;
 }
 h3 {
-  margin-top: 0px;
-  font-size: 16px;
+  margin: 24px 0px 40px 0px;
+  font-size: 14px;
   color: rgba(208, 209, 204,0.4);
+  max-width: 400px;
+  font-weight: 400;
+  line-height: 20px;
 }
 p {
-  margin: 40px;
-  font-size: 12px;
+  font-size: 11px;
   color: rgba(208, 209, 204,0.9);
   max-width: 400px;
 }
