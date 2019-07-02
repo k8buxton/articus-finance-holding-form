@@ -3,6 +3,7 @@ class ContactFormSubmissionsController < ApplicationController
     @contact_form_submission = ContactFormSubmission.new(contact_form_submission_params)
     if @contact_form_submission.save
       flash[:notice] = 'Thank you! We have received your email and will be in touch soon.'
+      ContactFormSubmissionMailer.contact_form_submission_email(@contact_form_submission).deliver_now
     else
       flash[:notice] = 'Sorry! There was an error submitting your request. Please try again.'
     end

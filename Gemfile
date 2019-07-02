@@ -14,9 +14,11 @@ gem 'sassc-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
+gem 'sendgrid-ruby'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
+  gem 'dotenv-rails'
 end
 
 group :development, :test do
